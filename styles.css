@@ -164,56 +164,61 @@ body {
 
 .partition {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
+  margin-left: 5rem;
+  margin-right: 6rem;
 }
 
 .left-section {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 20px;
+  align-items: left;
+  padding: 10px;
   text-align: left;
 }
 
-.left-section b {
+/* .left-section b {
   padding-left: 5%;
   padding-bottom: 20px;
   display: block;
   font-weight: 700;
   font-size: 50px;
-}
+} */
 
-.left-section p {
+/* .left-section p {
   margin-top: 20px;
   padding-left: 110px;
   padding-right: 150px;
   display: block;
   font-weight: 400;
   font-size: large;
-}
+} */
 
 .left-section img {
-  width: 60%;
+  width: 100%;
   height: auto;
   display: block;
 }
-a {
+/* a {
   color: #007bff;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-}
+} */
 
 .right-section {
-  width: 30%;
-  flex: 0 0 26%;
-  padding: 10px;
-  padding-right: 50px;
+  /* width: 100%; */
+  /* flex: 0 0 26%; */
+  /* padding-right: 100px; */
+  /* margin-right: 9.5rem; */
+  /* padding-right: 50px; */
   text-align: left;
+  align-items: center;
+  justify-content: right;
 }
 
 .important-dates-box {
@@ -333,6 +338,21 @@ a:hover {
   font-size: 2rem;
 }
 
+.content-one {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  /* background-color: red; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content-one-right {
+  justify-self: right;
+}
+
 @media (max-width: 1260px) {
   .partition {
     width: 100%;
@@ -361,3 +381,4 @@ a:hover {
     margin: 30px;
   }
 }
+

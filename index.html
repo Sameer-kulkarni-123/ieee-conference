@@ -7,6 +7,7 @@
     <title>RVU IEEE Conference</title>
     <link rel="icon" href="Images/logo1.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_timeline.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
@@ -48,13 +49,13 @@
                 <img src="Images/rvu-logo.png">
             </div>
             <div class="logo-container">
-                <img src="Images/ieee-placeholder.png">
+                <img src="Images/ieee-placeholder-transparent-bg.png">
             </div>
             <div class="logo-container">
-                <img src="Images/ieee-placeholder.png">
+                <img src="Images/ieee-placeholder-transparent-bg.png">
             </div>
             <div class="logo-container">
-                <img src="Images/ieee-placeholder.png">
+                <img src="Images/ieee-placeholder-transparent-bg.png">
             </div>
         </div>
         <div class="text-area">
@@ -66,8 +67,10 @@
             <div class="banner-buttons">
                 <!-- <button>Helloooo</button> -->
                  <button id="submit-btn" class="banner-btn">SUBMIT PAPER</button>
-                 <button id="timeline-btn" class="banner-btn">TIMELINE</button>
-                 <button id="download-btn" class="banner-btn">DOWNLOAD BROCHURE</button>
+                 <a href="#conference-timeline">
+                    <button id="timeline-btn" class="banner-btn">TIMELINE</button>
+                 </a>
+                 <button id="download-btn" class="banner-btn" >DOWNLOAD BROCHURE</button>
             </div>
 
         </div>
@@ -75,7 +78,7 @@
     </div>
     <div class="partition">
         <div class="left-section">
-            <b>Faces of ICC 2025</b>
+            <!-- <b>Faces of ICC 2025</b> -->
             <div class="carousel-container">
                 <div class="carousel">
                     <div class="carousel-item">
@@ -134,6 +137,73 @@
             </div>
 
 
+        </div>
+    </div>
+    <div class="content-one">
+        <div class="content-one-left">
+            <h2>About &lt;Conference Name&gt;</h2>
+            <p style="text-align: left; font-size: large; line-height: 2;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam harum quisquam at facere, ex ipsa aut fuga, voluptatem, soluta cum voluptate eos impedit. Debitis sint quos iure ipsa! Harum, ab vitae libero deleniti eligendi culpa vel reprehenderit voluptatum repellendus fuga eaque voluptatem quidem perspiciatis pariatur iure nihil. Iste aliquid eveniet sed, eius ad ipsam officia repudiandae voluptas unde, ratione perspiciatis voluptate libero. Magnam, placeat!</p>
+            <p style="text-align: left; font-size: large; line-height: 2;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam harum quisquam at facere, ex ipsa aut fuga, voluptatem, soluta cum voluptate eos impedit. Debitis sint quos iure ipsa! Harum, ab vitae libero deleniti eligendi culpa vel reprehenderit voluptatum repellendus fuga eaque voluptatem quidem perspiciatis pariatur iure nihil. Iste aliquid eveniet sed, eius ad ipsam officia repudiandae voluptas unde, ratione perspiciatis voluptate libero. Magnam, placeat!</p>
+        </div>
+        <div class="content-one-right">
+            <img src="Images/conference-poster-placeholder.png">
+        </div>
+    </div>
+    <div id="conference-timeline">
+        <h1>Conference Timeline</h1>
+        <div class="flex-parent">
+            <div class="input-flex-container">
+                <input type="radio" name="timeline-dot" data-description="1910">
+                <div class="dot-info" data-description="1910">
+                    <span class="year">1910</span>
+                    <span class="label">headset</span>
+                </div>
+                <input type="radio" name="timeline-dot" data-description="1920">
+                <div class="dot-info" data-description="1920">
+                    <span class="year">1920</span>
+                    <span class="label">jungle gym</span>
+                </div>
+                <input type="radio" name="timeline-dot" data-description="1930" checked>
+                <div class="dot-info" data-description="1930">
+                    <span class="year">1930</span>
+                    <span class="label">chocolate chip cookie</span>
+                </div>
+                <input type="radio" name="timeline-dot" data-description="1940">
+                <div class="dot-info" data-description="1940">
+                    <span class="year">1940</span>
+                    <span class="label">Jeep</span>
+                </div>
+                <input type="radio" name="timeline-dot" data-description="1950">
+                <div class="dot-info" data-description="1950">
+                    <span class="year">1950</span>
+                    <span class="label">leaf blower</span>
+                </div>
+                <input type="radio" name="timeline-dot" data-description="1960">
+                <div class="dot-info" data-description="1960">
+                    <span class="year">1960</span>
+                    <span class="label">magnetic stripe card</span>
+                </div>
+                <input type="radio" name="timeline-dot" data-description="1970">
+                <div class="dot-info" data-description="1970">
+                    <span class="year">1970</span>
+                    <span class="label">wireless LAN</span>
+                </div>
+                <input type="radio" name="timeline-dot" data-description="1980">
+                <div class="dot-info" data-description="1980">
+                    <span class="year">1980</span>
+                    <span class="label">flash memory</span>
+                </div>
+                <input type="radio" name="timeline-dot" data-description="1990">
+                <div class="dot-info" data-description="1990">
+                    <span class="year">1990</span>
+                    <span class="label">World Wide Web</span>
+                </div>
+                <input type="radio" name="timeline-dot" data-description="2000">
+                <div class="dot-info" data-description="2000">
+                    <span class="year">2000</span>
+                    <span class="label">Google AdWords</span>
+                </div>
+            </div>
         </div>
     </div>
 </body>
